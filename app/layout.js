@@ -1,0 +1,4 @@
+import './globals.css'
+export const metadata={title:'Shubh Deepawali 🪔',description:'Tumhare liye ek chhota sa surprise',robots:{index:false,follow:false},metadataBase:new URL(process.env.NEXT_PUBLIC_SITE_URL||'http://localhost:3000'),icons:{icon:"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>"}}
+export const viewport={width:'device-width',initialScale:1,viewportFit:'cover',themeColor:'#120a2e'}
+export default function L({children}){return(<html lang="hi"><head><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/><link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@300;400;600&display=swap" rel="stylesheet"/></head><body className="lock">{children}</body></html>)}

@@ -1,0 +1,1 @@
+{"name":"diwali-surprise","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"@emailjs/browser":"4.4.1","canvas-confetti":"1.9.3","framer-motion":"11.11.0","lenis":"1.1.13","next":"14.2.15","react":"18.3.1","react-dom":"18.3.1"},"devDependencies":{"esbuild":"^0.28.2","jsdom":"^31.0.0"}}
